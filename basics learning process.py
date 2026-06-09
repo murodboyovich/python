@@ -164,4 +164,88 @@ print(increment())
 print(increment())
 """
 
+'''
+def talk(phrase):
+    def say(word):
+        print(word)
 
+    words = phrase.split(" ")
+    for word in words:
+        say(word)
+
+talk("Nigga shut the fuck up")
+'''
+
+
+"""
+def counter():
+    count = 0
+
+    def increase():
+        nonlocal count
+        count = count + 1
+        return count
+    return increase
+
+increase = counter()
+
+print(increase())
+print(increase())
+print(increase())
+"""
+
+
+"""
+def make_negative( number ):
+    if number > 0:
+        return -(number)
+    elif number <= 0:
+        return number #for codewars
+"""
+
+
+"""
+def mk_ng(num):
+    return -abs(num)
+
+print(mk_ng(0)) #easier way
+"""
+
+
+"""
+def twice_as_old(dad_years_old, son_years_old):
+    f = dad_years_old
+    s = son_years_old
+    x = f - 2*s
+    return abs(x)
+
+print(twice_as_old(55, 30))  #for codewars
+"""
+
+
+"""
+def cookie(x):
+    if isinstance(x, str):
+        name = "Zach"
+    elif isinstance(x, (int, float)):
+        name = "Monica"
+    else: name = "the dog"
+    return  "Who ate the last cookie? It was "+name+"!"
+
+x = cookie("string")
+print(x)  #for codewars
+"""
+
+
+"""
+def bmi(w, h):
+    bmi = w/h**2
+    if bmi <= 18.5:
+        return  "Underweight"
+    elif bmi <= 25.0:
+        return "Normal"
+    elif bmi <= 30.0:
+        return "Overweight"
+    elif bmi > 30:
+       return "Obese" #for codewars
+"""
