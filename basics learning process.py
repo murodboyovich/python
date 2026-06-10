@@ -249,3 +249,25 @@ def bmi(w, h):
     elif bmi > 30:
        return "Obese" #for codewars
 """
+
+
+"""
+class animal():
+    def walk(self):
+        return "Walking..."
+
+class Dog(animal):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        return "woof!"
+
+roger = Dog("Roger", 3)
+
+print(roger.name)
+print(roger.age)
+print(roger.bark())
+print(roger.walk())
+"""
