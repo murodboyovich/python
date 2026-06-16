@@ -12,6 +12,13 @@ else:
 
 
 """
+def include(arr, item):
+    return item in arr   #for codewars
+"""
+
+
+
+"""
 username = "murodboyovich"
 password = "secretwars123"
 is_verified = True
