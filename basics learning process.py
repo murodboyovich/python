@@ -294,3 +294,18 @@ v1.details()
 v2 = vehicle("BMW", "4.4-liter twin-turbo V8 engine")
 v2.details()
 """
+
+
+'''
+from math import sqrt
+print(sqrt(9))
+'''
+
+
+'''
+import sys
+
+name = sys.argv[1]
+
+print("Hello " + name) # on the command line run: "python basics_learning_process.py" or name of your file.
+'''
