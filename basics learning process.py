@@ -278,3 +278,19 @@ print(roger.age)
 print(roger.bark())
 print(roger.walk())
 """
+
+
+"""
+class vehicle:
+    def __init__(self, model, engine):
+        self.model = model
+        self.engine = engine
+
+    def details(self):
+        print(f"{self.model} has {self.engine}.")
+
+v1 = vehicle("Mercedes", "AMG 4.0-litre V8 biturbo enginev")
+v1.details()
+v2 = vehicle("BMW", "4.4-liter twin-turbo V8 engine")
+v2.details()
+"""
