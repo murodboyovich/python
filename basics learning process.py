@@ -309,3 +309,32 @@ name = sys.argv[1]
 
 print("Hello " + name) # on the command line run: "python basics_learning_process.py" or name of your file.
 '''
+
+"""
+numbers = [1, 2 ,3 ,4 ,5]
+
+result = map(lambda a: a * 2, numbers)
+
+print(list(result)) #[2, 4, 6, 8, 10]
+"""
+
+"""
+numbers = [1, 2 ,3 ,4 , 5, 6]
+
+result = filter(lambda n: n % 2 == 0, numbers)
+
+print(list(result)) #[2, 4, 6]
+"""
+
+"""
+from functools import reduce
+
+numbers = [
+    ("Alex", 100),
+    ("Tony", 130)
+]
+
+sum = reduce(lambda a, b: a[1] + b[1], numbers)
+
+print(sum) #230
+"""
