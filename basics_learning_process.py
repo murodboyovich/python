@@ -338,3 +338,39 @@ sum = reduce(lambda a, b: a[1] + b[1], numbers)
 
 print(sum) #230
 """
+
+"""
+def factorial(n):
+    if n == 1: return 1
+    return n * factorial(n - 1)
+
+print(factorial(3))
+"""
+
+"""
+def logtime(func):
+    def wrapper():
+        print("Before")
+        val = func()
+        print("After")
+        return val
+    return wrapper
+    
+@logtime
+def hello():
+    print("Hello")
+
+hello()
+"""
+
+"""
+def type():
+    choose = input("Choose a color: ").strip().capitalize()
+    if choose == "Red" or choose == "Green" or choose == "Blue":
+        return "Its RGB color"
+    elif choose == "Cyan" or choose == "Magenta" or choose == "Yellow" or choose == "Key":
+        return "Its CMYK coor"
+    else: return "Other"
+    
+print(type())
+"""
